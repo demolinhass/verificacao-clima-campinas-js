@@ -52,7 +52,6 @@ async function checkWeather() {
     const weatherDescription = weatherCodeMap[weathercode] || 'Não disponível';
 
     console.log(`\n--- Dados da API de Meteorologia (Open-Meteo) ---`);
-    console.log(`Local: Campinas, Brasil`);
     console.log(`Descrição: ${weatherDescription}`);
     console.log(`Temperatura: ${temperature}°C`);
     console.log(`Velocidade do Vento: ${windspeed} km/h`);
