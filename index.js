@@ -40,7 +40,7 @@ const weatherCodeMap = {
 };
 
 async function checkWeather() {
-  console.log('Verificando as condições do tempo em Campinas, São Paulo...');
+  console.log('Verificando as condições do tempo em Aurora...');
 
   try {
     const response = await axios.get(API_URL);
